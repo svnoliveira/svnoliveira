@@ -1,5 +1,15 @@
-export const ProjectCard = () => {
+interface IProjectCardProps {
+    project: {
+        id: number,
+        name: string,
+        description: string,
+        english: string,
+        url: string
+    }
+}
+
+export const ProjectCard = ({project}:IProjectCardProps) => {
     return (
-        <h1>ProjectCard</h1>
+        <li>{project.name}</li>
     )
 }

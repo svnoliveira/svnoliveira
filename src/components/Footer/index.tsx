@@ -1,5 +1,10 @@
+import { NavigationMenu } from "../NavigationMenu"
+
 export const Footer = () => {
     return (
-    <h1>footer</h1>
+    <footer>
+        <span>© 2023 All rights reserved.</span>
+        <NavigationMenu />
+    </footer>
     )
 }

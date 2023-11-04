@@ -1,5 +1,14 @@
-export const TechCard = () => {
+
+interface ITechCardProps {
+    tech: {
+        id: number,
+        name: string,
+        img: any
+    }
+}
+
+export const TechCard = ({tech}: ITechCardProps) => {
     return (
-        <h1>TechCard</h1>
+        <li>{tech.name}</li>
     )
 }
