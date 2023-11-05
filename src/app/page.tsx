@@ -6,6 +6,7 @@ import { TechList } from "@/components/TechList";
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { GlobalStyle } from "@/styles/globalStyles";
+import { HomeList } from "@/components/HomeList";
 
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
       <main>
         <HomeSection />
         <TechList />
-        <ProjectList />
+        <HomeList />
         <Contact />
       </main>
       <Footer />

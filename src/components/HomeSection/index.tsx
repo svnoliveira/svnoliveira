@@ -17,7 +17,7 @@ export const HomeSection = () => {
             </StyledCircleDiv>
             <span>SAMUEL OLIVEIRA | FULL STACK WEB DEVELOPER</span>
             <StyledContainerDiv>
-                <h1 className="font-54px">lorem ipsun title lorem ipsunlorem</h1>
+                <h1 className="font-54px">Creating awesome pages and solutions for your Ideas</h1>
             </StyledContainerDiv>
             <Styledbutton>Latest Project</Styledbutton>
         </StyledSection>

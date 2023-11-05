@@ -11,6 +11,11 @@ export const Styledbutton = styled.button<{ $language?: boolean}>`
     align-items: center;
     justify-content: center;
     gap: 20px;
+    transition: 0.3s;
+
+    &:hover {
+        transform: scale(0.95);
+    }
 
     > div {
         position: relative;
