@@ -37,6 +37,10 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 54px;
     }
 
+    .font-28px {
+        font-size: 28px;
+    }
+
     .font-12px {
         font-size: 12px;
     }

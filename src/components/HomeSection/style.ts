@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import self from "../../../public/base/self.png"
+
 
 export const StyledSection = styled.section`
     min-height: 65vh;
