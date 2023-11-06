@@ -16,14 +16,25 @@ export const StyledCardLi = styled.li`
 export const StyledHeroImgDiv = styled.div`
     width: 65%;
     height: 81vh;
-    background-color: var(--grey);
-    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.2) 100%); */
+    background-color: var(--black);
+    iframe {
+        border: none;
+    }
 `
 
 export const StyledSubImgDiv = styled.div`
     height: 45vh;
     width: 400px;
-    background-color: var(--grey);
+    background-color: var(--grey-dark);
+    overflow: hidden;
+    img {
+        object-fit: contain;
+        padding: 15px 0;
+        transition: 0.5s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
 `
 
 export const StyledContentDiv = styled.div`

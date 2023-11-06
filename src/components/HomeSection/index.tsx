@@ -2,6 +2,7 @@ import Image from "next/image"
 import { Styledbutton } from "../Buttons/style"
 import { StyledCircleDiv, StyledContainerDiv, StyledSection } from "./style"
 import self from "../../../public/base/self.png"
+import Link from "next/link"
 
 
 export const HomeSection = () => {
@@ -19,7 +20,9 @@ export const HomeSection = () => {
             <StyledContainerDiv>
                 <h1 className="font-54px">Creating awesome pages and solutions for your Ideas</h1>
             </StyledContainerDiv>
-            <Styledbutton>Latest Project</Styledbutton>
+            <Link href={"/projects"}>
+                <Styledbutton>Latest Project</Styledbutton>
+            </Link>
         </StyledSection>
     )
 }

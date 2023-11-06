@@ -16,7 +16,7 @@ export const StyledHeader = styled.header<{ $projects?: boolean}>`
 
     > button {
         position: absolute;
-        bottom: -70px;
+        bottom: -41px;
         left: 0;
     }
 `

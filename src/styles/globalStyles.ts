@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
         --grey: #9A9A9A;
         --grey-dark: #242424;
         --background: #1A1A1A;
+        --black: #1F1E1F;
     }
 
     a, button {

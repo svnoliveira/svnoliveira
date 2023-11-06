@@ -13,12 +13,17 @@ export const HomeCard = () => {
                     </p>
                 </StyledCardDiv>
             </Link>
-            <StyledCardDiv>
-                <h1>Freelance</h1>
-                <p>
-                    Click to see details about solutions and products I can develop for your project
-                </p>
-            </StyledCardDiv>
+            <a
+                href="https://www.workana.com/freelancer/82ee618492403c1264c6fc7c1276fa2c"
+                target="_blank"
+                rel="noopener noreferrer">
+                <StyledCardDiv>
+                    <h1>Freelance</h1>
+                    <p>
+                        Click to see details about solutions and products I can develop for your project
+                    </p>
+                </StyledCardDiv>
+            </a>
         </StyledDiv>
     )
 }
