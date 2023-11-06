@@ -1,0 +1,28 @@
+import Image from "next/image"
+import { Styledbutton } from "../Buttons/style"
+import { StyledCircleDiv, StyledContainerDiv, StyledSection } from "./style"
+import self from "../../../public/base/self.png"
+import Link from "next/link"
+
+
+export const HomeSection = () => {
+    return (
+        <StyledSection>
+            <StyledCircleDiv>
+                <Image 
+                    src={self}
+                    width={130}
+                    height={130}
+                    alt="Picture of Samuel Oliveira"
+                />
+            </StyledCircleDiv>
+            <span>SAMUEL OLIVEIRA | FULL STACK WEB DEVELOPER</span>
+            <StyledContainerDiv>
+                <h1 className="font-54px">Creating awesome pages and solutions for your Ideas</h1>
+            </StyledContainerDiv>
+            <Link href={"/projects"}>
+                <Styledbutton>Latest Project</Styledbutton>
+            </Link>
+        </StyledSection>
+    )
+}

@@ -1,0 +1,10 @@
+body {
+  background-image: url(
+    ../../public/base/abstract-geometric-background-shapes-texture.jpg
+  );
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

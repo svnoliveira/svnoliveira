@@ -1,5 +1,10 @@
 ### Hi there 👋
+👯 My Favorite Stack: 
+Front-end:  TypeScript | Next.js | Styled Components
+Back-end:   Node.js | Express.js | TypeORM | PostgreSQL
 
+🔭 I’m currently working on - My Portfolio - Group Project for Kenzie Academy Br
+🌱 I’m currently learning PHP - Laravel - Docker - NoSQL - AWS
 <!--
 **svnoliveira/svnoliveira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -11,6 +16,5 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
-- 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
