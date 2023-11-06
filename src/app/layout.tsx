@@ -1,9 +1,11 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Abel } from 'next/font/google'
 import './globals.css'
 import StyledComponentsRegistry from '@/lib/registry'
+import TransitionComponent from '@/styles/animations/transition'
 
-const inter = Inter({ subsets: ['latin'] })
+
+const abel = Abel({ subsets: ['latin'], weight: ["400"]})
 
 export const metadata: Metadata = {
   title: 'Portfolio | svnoliveira',
@@ -17,9 +19,11 @@ export default function RootLayout( {
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={abel.className}>
         <StyledComponentsRegistry>
-          {children}
+          <TransitionComponent>
+            {children}
+          </TransitionComponent>
         </StyledComponentsRegistry>
       </body>
     </html>

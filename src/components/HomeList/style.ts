@@ -25,6 +25,7 @@ export const StyledUl = styled.div`
         transition: 1s;
         &:hover {
             filter: grayscale(0.2);
+            transform: scale(1.1);
         }
     }
 `

@@ -1,8 +1,12 @@
+import { Styledbutton } from "../Buttons/style"
+import { StyledSection } from "./style"
+
+
 export const Contact = () => {
     return (
-        <section>
-            <h1>Invite me for your next project</h1>
-            <button>Clique para entrar em contato ou solicitar um orçamento</button>
-        </section>
+        <StyledSection className="container">
+            <h1 className="font-54px">Invite me for your next project</h1>
+            <Styledbutton>Send an email</Styledbutton>
+        </StyledSection>
     )
 }

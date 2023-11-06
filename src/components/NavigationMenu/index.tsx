@@ -22,12 +22,12 @@ export const NavigationMenu = () => {
         <StyledNavDropdownLi>
           <span>Freelance</span>
           <StyledNavDropdownDiv>
-            <StyledAnchor href="https://github.com/svnoliveira/"
+            <StyledAnchor href="https://www.workana.com/freelancer/82ee618492403c1264c6fc7c1276fa2c"
               target="_blank"
               rel="noopener noreferrer">
               Workana
             </StyledAnchor>
-            <StyledAnchor href="https://github.com/svnoliveira/"
+            <StyledAnchor href="https://www.upwork.com/freelancers/~011021e883bf086793"
               target="_blank"
               rel="noopener noreferrer">
               Upwork
