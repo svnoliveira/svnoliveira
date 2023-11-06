@@ -2,17 +2,16 @@ import type { Metadata } from 'next'
 import { Abel } from 'next/font/google'
 import './globals.css'
 import StyledComponentsRegistry from '@/lib/registry'
-import TransitionComponent from '@/styles/animations/transition'
 
 
-const abel = Abel({ subsets: ['latin'], weight: ["400"]})
+const abel = Abel({ subsets: ['latin'], weight: ["400"] })
 
 export const metadata: Metadata = {
   title: 'Portfolio | svnoliveira',
   description: 'Full Stack web developer Portfolio | Samuel Oliveira | Next.js',
 }
 
-export default function RootLayout( {
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
@@ -21,9 +20,7 @@ export default function RootLayout( {
     <html lang="en">
       <body className={abel.className}>
         <StyledComponentsRegistry>
-          <TransitionComponent>
-            {children}
-          </TransitionComponent>
+          {children}
         </StyledComponentsRegistry>
       </body>
     </html>

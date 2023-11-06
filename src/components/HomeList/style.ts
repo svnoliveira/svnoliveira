@@ -22,6 +22,7 @@ export const StyledUl = styled.div`
     img {
         filter: grayscale(1);
         cursor: pointer;
+        object-fit: contain;
         transition: 1s;
         &:hover {
             filter: grayscale(0.2);

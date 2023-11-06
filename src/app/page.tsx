@@ -16,15 +16,15 @@ gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 export default function Home() {
   return (
     <>
-      <GlobalStyle />
-      <Header />
+      <GlobalStyle /> 
+      <Header $projects={false} />
       <main>
         <HomeSection />
         <TechList />
         <HomeList />
         <Contact />
       </main>
-      <Footer />
+      <Footer $projects={false}/>
     </>
   )
 }

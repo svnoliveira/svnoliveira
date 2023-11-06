@@ -1,7 +1,11 @@
 import { create } from 'zustand'
 
+export interface IAnimationState {
+    completed?: boolean
+    toggleCompleted?: (bol: boolean) => void
+}
 
 export const useAnimationStore = create((set) => ({
-    completed: false,
-    toggleCompleted: (bol:boolean) => set((state: {completed: boolean}) => ({completed: bol})),
+    completed: true,
+    toggleCompleted: (bol:boolean) => set((state: IAnimationState) => ({completed: bol})),
 }))
