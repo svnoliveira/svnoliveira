@@ -16,7 +16,7 @@ export const projects = [
     english: "Banking App for calculations of expenses and revenues",
     url: "https://nu-kenzie-beryl.vercel.app/",
     video: "https://streamable.com/e/2repy1?loop=0",
-    heroImg: undefined,
+    heroImg: "",
     subImage: nu,
   },
   {
@@ -26,7 +26,7 @@ export const projects = [
     english: "Complete store with shopping cart and multiple modals",
     url: "https://burger-kenzie-svnoliveira-svnoliveira.vercel.app/",
     video: "https://streamable.com/e/xhcodk?loop=0",
-    heroImg: undefined,
+    heroImg: "",
     subImage: burger,
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     english: "App with register, login and API integration for users",
     url: "https://nukenzie-svnoliveira.vercel.app/",
     video: "https://streamable.com/e/2frghz?loop=0",
-    heroImg: undefined,
+    heroImg: "",
     subImage: hub,
   },
   {
@@ -46,7 +46,7 @@ export const projects = [
     english: "Landing Page for advertisement of a Real Estate sale",
     url: "https://svnoliveira.github.io/BaIlerIncorporated/",
     video: "https://streamable.com/e/gkcz10?loop=0",
-    heroImg: undefined,
+    heroImg: "",
     subImage: bailer,
   },
   {
@@ -56,7 +56,7 @@ export const projects = [
     english: "Movie rating page, with login and options to give the movie a score",
     url: "https://kenzie-movies-team3.vercel.app/",
     video: "https://streamable.com/e/go01d7?loop=0",
-    heroImg: undefined,
+    heroImg: "",
     subImage: movie,
   },
   {
@@ -66,7 +66,7 @@ export const projects = [
     english: "Online shop with shopping cart",
     url: "https://kenzie-academy-brasil-developers.github.io/Kenzie-Academy-Brasil-Developers-M1-Ecommerce_svnoliveira/",
     video: "https://streamable.com/e/b3bisb?loop=0",
-    heroImg: undefined,
+    heroImg: "",
     subImage: weartake,
   },
   {
@@ -76,7 +76,7 @@ export const projects = [
     english: "Fashion webstore (ENGLISH)",
     url: "https://fashion-store-nine-ebon.vercel.app/",
     video: "https://streamable.com/e/b3ae7y?loop=0",
-    heroImg: undefined,
+    heroImg: "",
     subImage: fashion,
   },
   {
@@ -86,7 +86,7 @@ export const projects = [
     english: "Landing page for finance services",
     url: "https://svnoliveira.github.io/saquedigital/",
     video: "https://streamable.com/e/0vbjkr?loop=0",
-    heroImg: undefined,
+    heroImg: "",
     subImage: saque,
   },
 ];
