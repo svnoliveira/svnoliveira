@@ -6,7 +6,11 @@ export const Contact = () => {
     return (
         <StyledSection className="container">
             <h1 className="font-54px">Invite me for your next project</h1>
-            <Styledbutton>Send an email</Styledbutton>
+            <a href="mailto:svnoliveirakenzie@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer">
+                <Styledbutton>Send an email</Styledbutton>
+            </a>
         </StyledSection>
     )
 }

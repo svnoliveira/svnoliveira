@@ -33,7 +33,7 @@ export const Header = ({ $projects }: { $projects: boolean }) => {
                         </Link>
                         ) : (
                         <a className="font-12px"
-                            href="http://gmail.com"
+                            href="mailto:svnoliveirakenzie@gmail.com"
                             target="_blank"
                             rel="noopener noreferrer">
                             Send an email
