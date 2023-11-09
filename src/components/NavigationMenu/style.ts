@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
+export const StyledNav = styled.nav`
+    margin-left: auto;
+`
 
 export const StyledNavUl = styled.ul`
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 15px;
-    margin-left: auto;
     @media (max-width: 400px){
         display: none;
     }
