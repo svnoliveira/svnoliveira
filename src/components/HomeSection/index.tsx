@@ -5,7 +5,7 @@ import self from "../../../public/base/self.png"
 import Link from "next/link"
 
 
-export const HomeSection = () => {
+export const HomeSection = ({$language}:{$language?:string}) => {
     return (
         <StyledSection>
             <StyledCircleDiv>
@@ -18,10 +18,18 @@ export const HomeSection = () => {
             </StyledCircleDiv>
             <span>SAMUEL OLIVEIRA | FULL STACK WEB DEVELOPER</span>
             <StyledContainerDiv>
-                <h1 className="font-54px">Creating awesome pages and solutions for your Ideas</h1>
+                <h1 className="font-54px">
+                    {$language === "EN" ?
+                    "Creating awesome pages and solutions for your Ideas":
+                    "Criando incríveis páginas e soluções para suas ideias"}
+                </h1>
             </StyledContainerDiv>
             <Link href={"/projects"}>
-                <Styledbutton>Latest Project</Styledbutton>
+                <Styledbutton>
+                {$language === "EN" ?
+                    "Latest Project":
+                    "Projeto Mais Recente"}
+                </Styledbutton>
             </Link>
         </StyledSection>
     )

@@ -7,41 +7,50 @@ import { LanguageButton } from "../Buttons/LanguageButton"
 import Link from "next/link"
 
 
-export const Header = ({ $projects }: { $projects: boolean }) => {
-    return (
-        <StyledHeader className="container" $projects={$projects}>
-            <StyledDiv >
-                <StyledCircleDiv>
-                    <Image
-                        src={$projects ? homeIcon : mailIcon}
-                        width={18}
-                        height={18}
-                        alt={
-                            `Icon for a ${$projects ?
-                                "house" :
-                                "mail letter"
-                            }.`
-                        }
-                    />
-                </StyledCircleDiv>
+interface IHeaderProps {
+  $projects: boolean,
+  $language?: string
+}
 
-                {
-                    $projects ?
-                        (<Link className="font-12px"
-                            href={"/"}>
-                            Back to HomePage
-                        </Link>
-                        ) : (
-                        <a className="font-12px"
-                            href="mailto:samueloliveirakenzie@gmail.com"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            Send an email
-                        </a>)
-                }
-            </StyledDiv>
-            <NavigationMenu />
-            <LanguageButton />
-        </StyledHeader>
-    )
+export const Header = ({ $projects, $language }: IHeaderProps) => {
+  return (
+    <StyledHeader className="container" $projects={$projects}>
+      <StyledDiv >
+        <StyledCircleDiv>
+          <Image
+            src={$projects ? homeIcon : mailIcon}
+            width={18}
+            height={18}
+            alt={
+              `${$language === "EN" ? "Icon for a " : "Ícone de uma "}${$projects ?
+                $language === "EN" ? "house" : "casa" :
+                $language === "EN" ? "mail letter" : "carta de correio"
+              }.`
+            }
+          />
+        </StyledCircleDiv>
+
+        {
+          $projects ?
+            (<Link className="font-12px"
+              href={"/"}>
+              {`${$language == "EN" ?
+                "Back to Home page" :
+                "Voltar para página inicial"}`}
+            </Link>
+            ) : (
+              <a className="font-12px"
+                href="mailto:samueloliveirakenzie@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer">
+                {`${$language == "EN" ?
+                  "Send an email" :
+                  "Mande um email"}`}
+              </a>)
+        }
+      </StyledDiv>
+      <NavigationMenu />
+      <LanguageButton currentLanguage={$language} />
+    </StyledHeader>
+  )
 }

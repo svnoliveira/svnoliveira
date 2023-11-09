@@ -8,9 +8,9 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { ScrollToPlugin } from "gsap/all"
 
-gsap.registerPlugin(ScrollTrigger,ScrollToPlugin);
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
-export const ProjectList = () => {
+export const ProjectList = ({ $language }: { $language?: string }) => {
 
     const main = useRef<HTMLUListElement>(null);
     const scrollTween: MutableRefObject<GSAPTween | null | undefined> = useRef();
@@ -65,7 +65,10 @@ export const ProjectList = () => {
                 {
                     projects.map((project, i) => {
                         if (i <= projects.length - 2) {
-                            return <ProjectCard project={project} key={project.id} />
+                            return <ProjectCard
+                                project={project}
+                                key={project.id}
+                                $language={$language} />
                         }
                     })
                 }

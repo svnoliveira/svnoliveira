@@ -13,10 +13,11 @@ interface IProjectCardProps {
         video: string | undefined,
         heroImg: StaticImport | string,
         subImage: StaticImport | string,
-    }
+    },
+    $language?: string
 }
 
-export const ProjectCard = ({ project }: IProjectCardProps) => {
+export const ProjectCard = ({ project, $language }: IProjectCardProps) => {
     return (
         <StyledCardLi className="panel">
             <StyledHeroImgDiv>
@@ -26,8 +27,14 @@ export const ProjectCard = ({ project }: IProjectCardProps) => {
                 <StyledContentDiv>
                     <div>
                         <h1>{project.name}</h1>
-                        <p>Description:</p>
-                        <span>{`${project.english}`}</span>
+                        <p>
+                            {$language === "EN" ?
+                                "Description:" :
+                                "Descrição:"}
+                        </p>
+                        <span>{`${$language === "EN" ?
+                            project.english :
+                            project.description}`}</span>
                     </div>
                     <StyledSubImgDiv>
                         <a href={project.url}>
@@ -40,7 +47,11 @@ export const ProjectCard = ({ project }: IProjectCardProps) => {
                         </a>
                     </StyledSubImgDiv>
                     <div>
-                        <span>Website link <a href={project.url}><b>CLICK HERE</b></a></span>
+                        <span>Website link 
+                            <a href={project.url}>
+                                <b>{$language === "EN" ? " CLICK HERE" : " CLIQUE AQUI"}</b>
+                            </a>
+                        </span>
                     </div>
                 </StyledContentDiv>
             </div>

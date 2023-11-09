@@ -5,10 +5,14 @@ import collage from "../../../public/base/project-collages.png"
 import Link from "next/link"
 
 
-export const HomeList = () => {
+export const HomeList = ({$language}:{$language?:string}) => {
     return (
         <StyledSection className="container">
-            <h1>Experiences and Services</h1>
+            <h1>
+                {$language === "EN" ?
+                "Experiences and Services":
+                "Experiências e Serviços"}
+            </h1>
             <StyledUl>
                 <Link href="/projects">
                     <Image
@@ -18,7 +22,7 @@ export const HomeList = () => {
                         alt="Collage about various projects"
                     />
                 </Link>
-                <HomeCard />
+                <HomeCard $language={$language}/>
             </StyledUl>
         </StyledSection>
     )
