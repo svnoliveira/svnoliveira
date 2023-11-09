@@ -18,6 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel='icon' href='/sa2.ico' />
+      </head>
       <body className={abel.className}>
         <StyledComponentsRegistry>
           {children}

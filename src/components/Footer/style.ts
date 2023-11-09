@@ -10,4 +10,8 @@ export const StyledFooter = styled.footer<{ $projects: boolean}>`
     bottom: 0;
     left: 50%;
     transform: ${props => props.$projects ? "translate(-50%, 0)":"none"};
+    @media (max-width: 700px){
+        justify-content: center;
+        align-items: flex-end;
+    }
 `

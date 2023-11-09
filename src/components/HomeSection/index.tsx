@@ -16,7 +16,7 @@ export const HomeSection = ({$language}:{$language?:string}) => {
                     alt="Picture of Samuel Oliveira"
                 />
             </StyledCircleDiv>
-            <span>SAMUEL OLIVEIRA | FULL STACK WEB DEVELOPER</span>
+            <span className="font-16px">SAMUEL OLIVEIRA | FULL STACK WEB DEVELOPER</span>
             <StyledContainerDiv>
                 <h1 className="font-54px">
                     {$language === "EN" ?

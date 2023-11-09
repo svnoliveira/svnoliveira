@@ -5,6 +5,7 @@ import homeIcon from "../../../public/icons/home.svg"
 import { StyledCircleDiv, StyledDiv, StyledHeader } from "./style"
 import { LanguageButton } from "../Buttons/LanguageButton"
 import Link from "next/link"
+import { NavigationMenuMobile } from "../NavigationMenuMobile"
 
 
 interface IHeaderProps {
@@ -50,6 +51,7 @@ export const Header = ({ $projects, $language }: IHeaderProps) => {
         }
       </StyledDiv>
       <NavigationMenu />
+      <NavigationMenuMobile />
       <LanguageButton currentLanguage={$language} />
     </StyledHeader>
   )
