@@ -41,7 +41,7 @@ export const ProjectCard = ({ project, $language }: IProjectCardProps) => {
                             <Image
                                 src={project.subImage}
                                 height={440}
-                                width={400}
+                                width={250}
                                 alt="Smaller picture of the website"
                             />
                         </a>

@@ -48,12 +48,12 @@ export const StyledSubImgDiv = styled.div`
         object-fit: contain;
         padding: 15px 0;
         transition: 0.5s;
+        width: auto;
         &:hover {
             transform: scale(1.1);
         }
         @media (max-width: 1200px){
         height: 100%;
-        width: auto;
     }
     }
 `
@@ -68,7 +68,8 @@ export const StyledContentDiv = styled.div`
     @media (max-width: 900px){
         position: static;
         transform: none;
-        text-align: center
+        text-align: center;
+        max-width: 96vw;
     }
     @media (max-width: 900px) and (orientation:landscape) {
         display: none;
