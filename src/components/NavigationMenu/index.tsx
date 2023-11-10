@@ -1,9 +1,9 @@
-import { StyledAnchor, StyledNavDropdownDiv, StyledNavDropdownLi, StyledNavUl } from "./style"
+import { StyledAnchor, StyledNav, StyledNavDropdownDiv, StyledNavDropdownLi, StyledNavUl } from "./style"
 
 
 export const NavigationMenu = () => {
   return (
-    <nav>
+    <StyledNav>
       <StyledNavUl>
         <li>
           <a href="https://www.linkedin.com/in/samuel-oliveira-4643351a1/"
@@ -35,6 +35,6 @@ export const NavigationMenu = () => {
           </StyledNavDropdownDiv>
         </StyledNavDropdownLi>
       </StyledNavUl>
-    </nav>
+    </StyledNav>
   )
 }
