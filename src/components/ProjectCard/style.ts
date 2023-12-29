@@ -65,6 +65,13 @@ export const StyledContentDiv = styled.div`
     transform: translate(-50%,-50%);
     padding: 30px;
     background-color: var(--grey-dark);
+
+    .mobile-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     @media (max-width: 900px){
         position: static;
         transform: none;

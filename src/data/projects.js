@@ -6,6 +6,7 @@ import movie from "../../public/project-sub-img/movie.png"
 import weartake from "../../public/project-sub-img/weartake.png"
 import saque from "../../public/project-sub-img/saque.png"
 import fashion from "../../public/project-sub-img/fashion.png"
+import elegancia from "../../public/project-sub-img/elegancia.png"
 
 
 export const projects = [
@@ -18,6 +19,7 @@ export const projects = [
     video: "https://streamable.com/e/2repy1?loop=0",
     heroImg: "",
     subImage: nu,
+    github: "https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-react-entrega-s2-nu-kenzie_svnoliveira",
   },
   {
     id: 2,
@@ -28,6 +30,7 @@ export const projects = [
     video: "https://streamable.com/e/xhcodk?loop=0",
     heroImg: "",
     subImage: burger,
+    github: "https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-react-entrega-s3-hamburgueria-svnoliveira",
   },
   {
     id: 3,
@@ -38,6 +41,7 @@ export const projects = [
     video: "https://streamable.com/e/2frghz?loop=0",
     heroImg: "",
     subImage: hub,
+    github: "https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-react-entrega-kenzie-hub_svnoliveira",
   },
   {
     id: 4,
@@ -48,6 +52,7 @@ export const projects = [
     video: "https://streamable.com/e/gkcz10?loop=0",
     heroImg: "",
     subImage: bailer,
+    github: "https://github.com/svnoliveira/BaIlerIncorporated",
   },
   {
     id: 5,
@@ -58,6 +63,7 @@ export const projects = [
     video: "https://streamable.com/e/go01d7?loop=0",
     heroImg: "",
     subImage: movie,
+    github: "https://github.com/T17-Kenzie-team3/-Kenzie-Academy-Brasil-Developers-kenzie-movie-entrega-t17-team3",
   },
   {
     id: 6,
@@ -68,6 +74,7 @@ export const projects = [
     video: "https://streamable.com/e/b3bisb?loop=0",
     heroImg: "",
     subImage: weartake,
+    github: "https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-M1-Ecommerce_svnoliveira",
   },
   {
     id: 7,
@@ -78,6 +85,7 @@ export const projects = [
     video: "https://streamable.com/e/b3ae7y?loop=0",
     heroImg: "",
     subImage: fashion,
+    github: "https://github.com/svnoliveira/fashion-store",
   },
   {
     id: 8,
@@ -88,5 +96,17 @@ export const projects = [
     video: "https://streamable.com/e/0vbjkr?loop=0",
     heroImg: "",
     subImage: saque,
+    github: "https://github.com/svnoliveira/saquedigital",
+  },
+  {
+    id: 9,
+    name: "Elegancia a la Mode",
+    description: "E-commerce de moda fashion, com back end e front-end",
+    english: "E-commerce for fashion with back-end and front-end",
+    url: "https://eleganciaalamode.vercel.app/",
+    video: "https://streamable.com/e/h76ao3?loop=0",
+    heroImg: "",
+    subImage: elegancia,
+    github: "https://github.com/hacka-kenzie-team/eleganciaalamode",
   },
 ];

@@ -13,6 +13,7 @@ interface IProjectCardProps {
         video: string | undefined,
         heroImg: StaticImport | string,
         subImage: StaticImport | string,
+        github: string,
     },
     $language?: string
 }
@@ -26,7 +27,17 @@ export const ProjectCard = ({ project, $language }: IProjectCardProps) => {
             <div className="container">
                 <StyledContentDiv>
                     <div>
-                        <h1>{project.name}</h1>
+                        <div className="mobile-header">
+                            <h1>{project.name}</h1>
+                            <a href={project.github}>
+                                <Image
+                                src={project.subImage}
+                                height={35}
+                                width={35}
+                                alt="Github Icon">
+                                </Image>
+                            </a>
+                        </div>
                         <p>
                             {$language === "EN" ?
                                 "Description:" :
