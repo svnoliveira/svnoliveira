@@ -31,7 +31,7 @@ export const ProjectCard = ({ project, $language }: IProjectCardProps) => {
                             <h1>{project.name}</h1>
                             <a href={project.github}>
                                 <Image
-                                src={project.subImage}
+                                src="icons/github.svg"
                                 height={35}
                                 width={35}
                                 alt="Github Icon">
