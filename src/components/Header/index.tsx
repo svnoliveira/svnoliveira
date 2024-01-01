@@ -19,7 +19,7 @@ export const Header = ({ $projects, $language }: IHeaderProps) => {
       <StyledDiv >
         <StyledCircleDiv>
           <Image
-            src={$projects ? homeIcon : mailIcon}
+            src={!$projects ? mailIcon : homeIcon}
             width={18}
             height={18}
             alt={
@@ -32,14 +32,8 @@ export const Header = ({ $projects, $language }: IHeaderProps) => {
         </StyledCircleDiv>
 
         {
-          $projects ?
-            (<Link className="font-12px"
-              href={"/"}>
-              {`${$language == "EN" ?
-                "Back to Home page" :
-                "Voltar para página inicial"}`}
-            </Link>
-            ) : (
+          !$projects ?
+            (
               <a className="font-12px"
                 href="mailto:samueloliveirakenzie@gmail.com"
                 target="_blank"
@@ -47,7 +41,14 @@ export const Header = ({ $projects, $language }: IHeaderProps) => {
                 {`${$language == "EN" ?
                   "Send an email" :
                   "Mande um email"}`}
-              </a>)
+              </a>) : (<Link className="font-12px"
+                href={"/"}>
+                {`${$language == "EN" ?
+                  "Back to Home page" :
+                  "Voltar para página inicial"}`}
+              </Link>
+            )
+
         }
       </StyledDiv>
       <NavigationMenu />

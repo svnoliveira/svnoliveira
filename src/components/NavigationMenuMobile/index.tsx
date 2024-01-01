@@ -1,6 +1,7 @@
 import Image from "next/image"
 import menu from "../../../public/icons/menu.svg"
 import { StyledAnchor, StyledNavDropdownDiv, StyledNavDropdownLi, StyledNavUl } from "./style"
+import Link from "next/link"
 
 
 export const NavigationMenuMobile = () => {
@@ -14,6 +15,11 @@ export const NavigationMenuMobile = () => {
             width={40}
             alt="Menu icon" />
           <StyledNavDropdownDiv>
+            <div>
+              <Link href="/aboutme">
+                About Me
+              </Link>
+            </div>
             <div>
               <StyledAnchor href="https://www.linkedin.com/in/samuel-oliveira-4643351a1/"
                 target="_blank"

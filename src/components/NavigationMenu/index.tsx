@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { StyledAnchor, StyledNav, StyledNavDropdownDiv, StyledNavDropdownLi, StyledNavUl } from "./style"
 
 
@@ -5,6 +6,11 @@ export const NavigationMenu = () => {
   return (
     <StyledNav>
       <StyledNavUl>
+        <li>
+          <Link href="/aboutme">
+            About Me
+          </Link>
+        </li>
         <li>
           <a href="https://www.linkedin.com/in/samuel-oliveira-4643351a1/"
             target="_blank"
