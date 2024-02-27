@@ -7,6 +7,7 @@ import weartake from "../../public/project-sub-img/weartake.png"
 import saque from "../../public/project-sub-img/saque.png"
 import fashion from "../../public/project-sub-img/fashion.png"
 import elegancia from "../../public/project-sub-img/elegancia.png"
+import velopay from "../../public/project-sub-img/velopay.png"
 
 
 export const projects = [
@@ -108,5 +109,16 @@ export const projects = [
     heroImg: "",
     subImage: elegancia,
     github: "https://github.com/hacka-kenzie-team/eleganciaalamode",
+  },
+  {
+    id: 10,
+    name: "Velopay | Maquininha",
+    description: "Landing page para serviços financeiros",
+    english: "Landing page for finance services",
+    url: "https://svnoliveira.github.io/velopay/",
+    video: "https://streamable.com/e/d5becj?loop=0",
+    heroImg: "",
+    subImage: velopay,
+    github: "https://github.com/svnoliveira/velopay",
   },
 ];
