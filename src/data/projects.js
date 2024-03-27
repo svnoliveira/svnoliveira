@@ -8,7 +8,7 @@ import saque from "../../public/project-sub-img/saque.png"
 import fashion from "../../public/project-sub-img/fashion.png"
 import elegancia from "../../public/project-sub-img/elegancia.png"
 import velopay from "../../public/project-sub-img/velopay.png"
-
+import awti from "../../public/project-sub-img/awti.png"
 
 export const projects = [
   {
@@ -120,5 +120,16 @@ export const projects = [
     heroImg: "",
     subImage: velopay,
     github: "https://github.com/svnoliveira/velopay",
+  },
+  {
+  id: 11,
+    name: "AWTI Valley",
+    description: "Sistema de gerênciamento de pontos e painel de controle",
+    english: "System for managing employee check-ins and control panel",
+    url: "https://github.com/svnoliveira/awtivalley",
+    video: "https://streamable.com/e/ekfdi5?loop=0",
+    heroImg: "",
+    subImage: awti,
+    github: "https://github.com/svnoliveira/awtivalley-api",
   },
 ];
