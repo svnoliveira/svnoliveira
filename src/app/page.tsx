@@ -11,6 +11,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { useEffect } from "react";
 import { useLanguageStore } from "@/context/languageStore";
+import { StarBackground } from "@/components/StarBackground";
 
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
@@ -38,6 +39,7 @@ export default function Home() {
         <TechList />
         <HomeList $language={language}/>
         <Contact $language={language}/>
+        <StarBackground />
       </main>
       <Footer $projects={false}/>
     </>
