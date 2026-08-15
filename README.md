@@ -1,11 +1,13 @@
 ### Hi there 👋
-- 👯 My Favorite Stack: 
-- Front-end:  TypeScript | Next.js | Styled Components
-- Back-end:   Node.js | Express.js | TypeORM | PostgreSQL
 
-- 🌱 I’m currently learning PHP - Laravel - Docker - NoSQL - AWS
+- 👯 My Favorite Stack:
+- Front-end: TypeScript | Next.js | TailwindCSS
+- Back-end: Python | Django | PostgreSQL
+
+- 🌱 I’m currently learning RUST
 
 [website : svnoliveira.com](https://www.svnoliveira.com)
+
 <!--
 **svnoliveira/svnoliveira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

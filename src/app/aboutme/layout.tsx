@@ -1,19 +1,14 @@
-import type { Metadata } from 'next'
-import StyledComponentsRegistry from '@/lib/registry'
-
+import type { Metadata } from "next";
+import StyledComponentsRegistry from "@/lib/registry";
 
 export const metadata: Metadata = {
-  title: 'About me | svnoliveira',
-}
+  title: "About me | svnoliveira",
+};
 
 export default function AboutMeLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-  return (
-    <StyledComponentsRegistry>
-      {children}
-    </StyledComponentsRegistry>
-  )
+  return <StyledComponentsRegistry>{children}</StyledComponentsRegistry>;
 }

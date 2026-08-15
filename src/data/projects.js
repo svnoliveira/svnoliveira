@@ -1,14 +1,15 @@
-import nu from "../../public/project-sub-img/nu.png"
-import burger from "../../public/project-sub-img/burger.png"
-import hub from "../../public/project-sub-img/hub.png"
-import bailer from "../../public/project-sub-img/bailer.png"
-import movie from "../../public/project-sub-img/movie.png"
-import weartake from "../../public/project-sub-img/weartake.png"
-import saque from "../../public/project-sub-img/saque.png"
-import fashion from "../../public/project-sub-img/fashion.png"
-import elegancia from "../../public/project-sub-img/elegancia.png"
-import velopay from "../../public/project-sub-img/velopay.png"
-import awti from "../../public/project-sub-img/awti.png"
+import nu from "../../public/project-sub-img/nu.png";
+import burger from "../../public/project-sub-img/burger.png";
+import hub from "../../public/project-sub-img/hub.png";
+import bailer from "../../public/project-sub-img/bailer.png";
+import movie from "../../public/project-sub-img/movie.png";
+import weartake from "../../public/project-sub-img/weartake.png";
+import saque from "../../public/project-sub-img/saque.png";
+import fashion from "../../public/project-sub-img/fashion.png";
+import elegancia from "../../public/project-sub-img/elegancia.png";
+import velopay from "../../public/project-sub-img/velopay.png";
+import awti from "../../public/project-sub-img/awti.png";
+import lrn from "../../public/project-sub-img/lrn.png";
 
 export const projects = [
   {
@@ -20,7 +21,8 @@ export const projects = [
     video: "https://player.vimeo.com/video/993013553",
     heroImg: "",
     subImage: nu,
-    github: "https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-react-entrega-s2-nu-kenzie_svnoliveira",
+    github:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-react-entrega-s2-nu-kenzie_svnoliveira",
   },
   {
     id: 2,
@@ -31,7 +33,8 @@ export const projects = [
     video: "https://player.vimeo.com/video/993014543",
     heroImg: "",
     subImage: burger,
-    github: "https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-react-entrega-s3-hamburgueria-svnoliveira",
+    github:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-react-entrega-s3-hamburgueria-svnoliveira",
   },
   {
     id: 3,
@@ -42,7 +45,8 @@ export const projects = [
     video: "https://player.vimeo.com/video/993015243",
     heroImg: "",
     subImage: hub,
-    github: "https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-react-entrega-kenzie-hub_svnoliveira",
+    github:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-react-entrega-kenzie-hub_svnoliveira",
   },
   {
     id: 4,
@@ -59,12 +63,14 @@ export const projects = [
     id: 5,
     name: "Kenzie Movie",
     description: "Página de avaliação de filmes",
-    english: "Movie rating page, with login and options to give the movie a score",
+    english:
+      "Movie rating page, with login and options to give the movie a score",
     url: "https://kenzie-movies-team3.vercel.app/",
     video: "https://player.vimeo.com/video/993015369",
     heroImg: "",
     subImage: movie,
-    github: "https://github.com/T17-Kenzie-team3/-Kenzie-Academy-Brasil-Developers-kenzie-movie-entrega-t17-team3",
+    github:
+      "https://github.com/T17-Kenzie-team3/-Kenzie-Academy-Brasil-Developers-kenzie-movie-entrega-t17-team3",
   },
   {
     id: 6,
@@ -75,7 +81,8 @@ export const projects = [
     video: "https://player.vimeo.com/video/993014609",
     heroImg: "",
     subImage: weartake,
-    github: "https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-M1-Ecommerce_svnoliveira",
+    github:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-M1-Ecommerce_svnoliveira",
   },
   {
     id: 7,
@@ -122,7 +129,7 @@ export const projects = [
     github: "https://github.com/svnoliveira/velopay",
   },
   {
-  id: 11,
+    id: 11,
     name: "AWTI Valley",
     description: "Sistema de gerênciamento de pontos e painel de controle",
     english: "System for managing employee check-ins and control panel",
@@ -131,5 +138,17 @@ export const projects = [
     heroImg: "",
     subImage: awti,
     github: "https://github.com/svnoliveira/awtivalley-api",
+  },
+  {
+    id: 12,
+    name: "LRN Agricola",
+    description:
+      "Sistema de gerênciamento de pátio e painel de controle em tempo real",
+    english: "System for managing yard and control panel in real time",
+    url: "https://app.lrnagricola.com.br/",
+    video: "https://player.vimeo.com/video/1218548553",
+    heroImg: "",
+    subImage: lrn,
+    github: "https://github.com/svnoliveira/gerenciamento_patio_api",
   },
 ];
