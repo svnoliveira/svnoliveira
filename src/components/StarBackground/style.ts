@@ -7,9 +7,9 @@ export const StyledBackground = styled.div`
   width: 100dvw;
   height: 100dvh;
   z-index: -1;
-  background-image: url("/base/stars.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-color: var(--background);
+
+  img {
+    object-fit: cover;
+  }
 `;
